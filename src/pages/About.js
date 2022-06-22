@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import T3 from "../assets/T3.JPG";
 
 export default class About extends Component {
   render() {
@@ -11,17 +11,22 @@ export default class About extends Component {
           <div className="centered">
             <img
               className="profile_image"
-              src={profile_pic}
-              alt="Profile Pic"
+              src={T3}
+              alt="Tommy's Profile Pic"
             ></img>
           </div>
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Tommy Cano</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              Hello Everyone! I am a rising senior at St. John's University in Queens, New York
+              I study Computer Science and I am currently interning at Veracode as a Software Engineer.
+              One day I dream to land a Software Engineering role at Google, Amazon, or IBM!
+
+              I am a huge music and sports fan. Some of my favortie music artists include Bad Bunny, Kendrick Lamar, Kanye West and Tyler the Creator.
+              My favorite sports to play are Soccer and Basketball, I am a huge fan of Lebron James and Liverpool F.C.
+              My interest expand into movies as well, some of my favorite movies include Goodfellas, Once Upon a Time in Hollywood, and Star Wars : Revenge of the Sith! 
             </div>
           </div>
         </div>

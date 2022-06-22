@@ -8,6 +8,27 @@
   padding-top: 100px;
 }
 
+@keyframes color{
+  0% {
+    background: #33cccc;
+  }
+  20% {
+    background: #19b81c;
+  }
+  40% {
+    background: #b8cc43;
+  }
+  60% {
+    background: #f1cb34;
+  }
+  80% {
+    background: #1cb61f;
+  }
+  100% {
+    background: #33cccc;
+  }
+}
+
 .left {
   left: 0;
   background-color: #0f62fe;
